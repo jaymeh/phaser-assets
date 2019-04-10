@@ -1,0 +1,51 @@
+{
+	"generator_info": "Shape definitions generated with PhysicsEditor. Visit https://www.codeandweb.com/physicseditor",
+	"grid-tile": {
+		"type": "fromPhysicsEditor",
+		"label": "grid-tile",
+		"isStatic": false,
+		"density": 0.1,
+		"restitution": 0,
+		"friction": 0.1,
+		"frictionAir": 0.01,
+		"frictionStatic": 0.5,
+		"collisionFilter": {
+			"group": 0,
+			"category": 1,
+			"mask": 255
+		},
+		"fixtures": [
+			{
+				"label": "",
+				"isSensor": false,
+				"vertices": [
+					[ { "x":122, "y":31 }, { "x":61, "y":0 }, { "x":0, "y":31 }, { "x":61, "y":62 } ]
+				]
+			}
+		]
+	},
+	"room-collider": {
+		"type": "fromPhysicsEditor",
+		"label": "room-collider",
+		"isStatic": false,
+		"density": 0.10000000149011612,
+		"restitution": 0,
+		"friction": 0.10000000149011612,
+		"frictionAir": 0.009999999776482582,
+		"frictionStatic": 0.5,
+		"collisionFilter": {
+			"group": 0,
+			"category": 1,
+			"mask": 255
+		},
+		"fixtures": [
+			{
+				"label": "",
+				"isSensor": false,
+				"vertices": [
+					[ { "x":541, "y":0 }, { "x":0, "y":271 }, { "x":242, "y":392 }, { "x":840, "y":392 }, { "x":1081, "y":271 } ]
+				]
+			}
+		]
+	}
+}
